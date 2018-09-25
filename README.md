@@ -23,7 +23,7 @@ Visit https://swift.org/download/ and check for the latest release.
 
 	$ sudo apt install python-swiftclient clang libicu-dev libpython2.7 libxml2 libcurl3 -y
 
-**IF** you have problem installing `libicu`
+**IF** you have problem getting `libicu`
 
 	$ wget http://security.ubuntu.com/ubuntu/pool/main/i/icu/libicu55_55.1-7_amd64.deb
 	$ sudo dpkg -i libicu55_55.1-7_amd64.deb
@@ -42,7 +42,7 @@ Visit https://swift.org/download/ and check for the latest release.
 
 ## Easy Build & Run Using VSCode Task
 I have writen a vscode task, so that I can build & run my code my project without opening terminal.
-* [Get the `tasks.json`](https://github.com/yazdipour/swift_on_windows/sample/.vscode/tasks.json) and put it inside `yourProjectFolder/.vscode`
+* [Get the `tasks.json`](https://raw.githubusercontent.com/yazdipour/swift_on_windows/master/sample/.vscode/tasks.json) and put it inside `yourProjectFolder/.vscode`
 * Build & Run using `Ctrl+Shift+B`
 * Be sure to have swift package at `~/swift/` (obviously you can change the directory inside `tasks.json`)
 
