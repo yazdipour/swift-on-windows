@@ -1,0 +1,22 @@
+{
+    // See https://github.com/yazdipour/swift_on_windows
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "SwiftOnWindows",
+        "type": "shell",
+        "command": "echo \"           _  __ _   \"&echo \" ____ __ _(_)/ _| |_ \"&echo \"(_-< V  V / |  _|  _|\"&echo \"/__/\\_/\\_/|_|_|  \\__|\" & wsl ~/swift/usr/bin/swift build & echo ----------------------- & wsl ./.build/x86_64-unknown-linux/debug/${PWD##*/}",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "echo": false,
+          "reveal": "always",
+          "focus": true,
+          "panel": "new"
+        }
+      }
+    ]
+  }
+  
